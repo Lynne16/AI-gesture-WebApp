@@ -28,7 +28,7 @@ function gotPoses(results){
         console.log("X postion of the nose "+noseX+" Y position of the nose "+noseY);
 
         LeftwristX=results[0].pose.leftWrist.x;
-        RightwristX=results[0].pose.rightWrist.y;
+        RightwristX=results[0].pose.rightWrist.x;
         console.log("X postion of the Leftwrist "+LeftwristX+" X position of the Rightwrist "+RightwristX);
 
         length=floor(LeftwristX-RightwristX);
